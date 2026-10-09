@@ -1,0 +1,22 @@
+# Normalize line endings so the repo is consistent across Windows/macOS/Linux
+# and contributors don't see spurious CRLF diffs.
+* text=auto eol=lf
+
+# Shell / config that must stay LF
+*.sh text eol=lf
+
+# Treat generated/binary asset types as binary if they are ever added.
+# (This project generates all art and audio in code and has none today.)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg text
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary

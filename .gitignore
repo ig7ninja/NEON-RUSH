@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerate with `npm run build`)
+dist/
+dist-ssr/
+*.local
+
+# Local environment / secrets (none expected for this offline game, kept as a guard)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / OS cruft
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Caches / temp / test artifacts
+.cache/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# NOTE: All game art and audio are generated in code (Canvas + Web Audio).
+# There are no binary asset directories to preserve here, and no source
+# under /src or the root config files are ignored by these patterns.
