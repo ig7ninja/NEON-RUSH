@@ -315,6 +315,10 @@ Before publishing:
 - **Tooling:** [Vite](https://vitejs.dev/), the [Canvas 2D
   API](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D), and
   the [Web Audio API](https://developer.mozilla.org/docs/Web/API/Web_Audio_API).
+- **AI-assisted development:** this project was built with an AI coding assistant
+  helping with implementation, browser-based play-testing, and the release
+  tooling (`.gitignore`, `.gitattributes`, README, and the GitHub Pages workflow).
+  All gameplay design decisions, review, and ownership remain with the author.
 
 Add your name/handle here for authorship.
 
