@@ -25,6 +25,7 @@ installed it runs fully offline.
 - [Deploying to GitHub Pages](#deploying-to-github-pages)
 - [Repository checklist](#repository-checklist)
 - [Credits](#credits)
+- [License](#license)
 
 ---
 
@@ -302,7 +303,8 @@ Before publishing:
 - [ ] Commit `package-lock.json` for reproducible `npm ci` installs.
 - [ ] `package.json` is `"private": true` — this only blocks accidental `npm
       publish` to the registry and does **not** affect hosting on GitHub.
-- [ ] Add a `LICENSE` file to define how others may use the project.
+- [x] `LICENSE` is MIT, so others may freely use, modify, and redistribute the
+      project with attribution.
 - [ ] Confirm the repository name you want (e.g. `NEON-RUSH`) for the Pages URL.
 
 ---
@@ -321,6 +323,14 @@ Before publishing:
   All gameplay design decisions, review, and ownership remain with the author.
 
 Add your name/handle here for authorship.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE) — free to use, copy, modify, merge,
+publish, distribute, sublicense, and sell, provided the copyright and permission
+notice stays with the project.
 
 ---
 
